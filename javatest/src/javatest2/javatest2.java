@@ -16,6 +16,16 @@ public class javatest2 {
 
 		area = donut.getArea(); 				// 도넛의 면적 알아내기
 		System.out.println(donut.name + "의 면적은 " + area);
+		
+		
+		Circle ring = new Circle(); 		// Circle 객체 생성
+		ring.radius = 2; 							// 도넛의 반지름을 2로 설정
+		ring.name = "링"; 			// 도넛의 이름 설정
+
+		area = ring.getArea(); 				// 도넛의 면적 알아내기
+		System.out.println(ring.name + "의 면적은 " + area);
+		//가나다라 마바사아 자차
+
 	}
 }
 
